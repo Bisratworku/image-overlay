@@ -20,10 +20,17 @@ main{
     top: 0;
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit, 1fr);
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 300px);
     width: 100%;
 }
-
+.gallary{
+    border: 2px solid red;
+}
+.gallary img{
+    height: 100%;
+    width: 100%;
+}
 
 
 
