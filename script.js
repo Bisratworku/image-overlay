@@ -9,7 +9,7 @@ gallary.forEach(e => {
         img.style.background = `url(img/${e.classList[1]}.jpg)`
         img.style.backgroundPosition = `center`
         img.style.backgroundRepeat = `no-repeat`
-        img.style.backgroundSize  = `cover`
+        img.style.backgroundSize  = `50%`
     })
 })
 close.addEventListener("click", function(){

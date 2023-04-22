@@ -55,7 +55,7 @@ main{
     width: 70%;
     backdrop-filter: contrast();
     background-color: rgba( 255, 255, 255, 0.45 );
-    border: 2px solid red;
+    
     cursor: zoom-in;
 }
 
